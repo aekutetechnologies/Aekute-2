@@ -4,7 +4,7 @@ var options = {
 		'There are no cookies used on this site, but if there were this message could be customised to provide more details. Click the <strong>accept</strong> button below to see the optional callback in action...',
 	delay: 600,
 	expires: 1,
-	link: 'https://Aekute.com/privacy-policy.html',
+	link: 'https://Aekudev.com/privacy-policy.html',
 	onAccept: function () {
 		var myPreferences = $.fn.ihavecookies.cookie();
 		console.log('Yay! The following preferences were saved...');

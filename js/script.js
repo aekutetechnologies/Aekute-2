@@ -6,7 +6,7 @@
 			disableAt: !1,
 			customToggle: e('.toggle'),
 			levelSpacing: 10,
-			navTitle: 'Aekute Technologies',
+			navTitle: 'Aekudev Technologies',
 			levelTitles: !0,
 			levelTitles: !0,
 			labelClose: !1,
