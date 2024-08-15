@@ -8596,3 +8596,110 @@ section.technologies-section {
     width: auto;
     padding: 0 60px
 }
+
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Contact Section */
+.contact {
+    padding: 60px 0;
+}
+
+.contact .common-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact .contact-info {
+    margin-bottom: 20px;
+}
+
+.contact .contact-info h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact .contact-details {
+    list-style: none;
+    padding: 0;
+}
+
+.contact .contact-details li {
+    margin-bottom: 15px;
+}
+
+.contact .contact-details i {
+    margin-right: 10px;
+    color: #333;
+}
+
+.contact .form-block {
+    margin-top: 20px;
+}
+
+.contact-form .fieldsets {
+    margin-bottom: 20px;
+}
+
+.contact-form .fieldsets input,
+.contact-form .fieldsets textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form .fieldsets button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form .fieldsets button:hover {
+    background-color: #0056b3;
+}
+
+/* Our Locations Section */
+.our-office {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.our-office .common-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.our-office .office-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.our-office .office-text h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.our-office .office-text p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .contact .form-block {
+        margin-top: 0;
+    }
+    
+    .contact .contact-info {
+        margin-bottom: 40px;
+    }
+}

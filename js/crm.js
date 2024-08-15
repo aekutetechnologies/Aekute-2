@@ -1,7 +1,7 @@
 $('form.contact-form').submit(function (event) {
 	event.preventDefault();
 	$.ajax({
-		url: 'https://erp.Aekudev.com/contact/form/save',
+		url: 'https://erp.aekudev.com/contact/form/save',
 		type: 'POST',
 		dataType: 'json',
 		enctype: 'multipart/form-data',
